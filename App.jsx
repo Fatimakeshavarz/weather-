@@ -8,8 +8,8 @@ const App=()=>{
             <h3>Starweather</h3>
             <div className="city-selector">
               <select >
-               <option value={Tehran}>tehran</option>
-               <option value={OtherCity}>otherCity</option>
+               <option value="Tehran">tehran</option>
+               <option value="OtherCity">otherCity</option>
                <label className='lableBox'>انتخاب شهر</label>
               </select>
             </div>
