@@ -1,0 +1,17 @@
+.weather-container{
+  font-family: "Ariel",sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.city-selector{
+  font-size: 18px;
+  padding: 5px;
+}
