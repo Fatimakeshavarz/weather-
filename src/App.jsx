@@ -1,15 +1,15 @@
-import './App.css'
+import "./App.css"
 
 
-const App=()=>{
+export default function App(){
     return(
       <div className='weather-container'>
          <header>
             <h3>Starweather</h3>
-            <div className="city-selector">
+            <div className="">
               <select >
-               <option value={Tehran}>tehran</option>
-               <option value={OtherCity}>otherCity</option>
+               <option value='Tehran'>tehran</option>
+               <option value='OtherCity'>otherCity</option>
                <label className='lableBox'>انتخاب شهر</label>
               </select>
             </div>
@@ -19,4 +19,3 @@ const App=()=>{
     )
  }
  
- export default App
